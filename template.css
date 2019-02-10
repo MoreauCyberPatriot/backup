@@ -1,0 +1,78 @@
+.background {
+    background: #E0E0E0;
+    height: 100%;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #1EA43B;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content: center;
+}
+
+.headOpt {
+    width: 250px;
+    text-align: center;
+    vertical-align: center;
+    padding: 0 15px;
+}
+
+.nav {
+    height: 2rem;
+}
+
+.nav li {
+    font-size: 20px;
+    float: left;
+     display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.link {
+    font-size: 20px;
+    transition: color 0.3s ease;
+    color: white !important;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    padding: 0 !important;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FCD664 !important;
+    background-color: transparent !important;
+}
+
+.logo {
+    height: 150px;
+}
+
+.problem {
+    background: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 0 0 25px 25px;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ans {
+    text-align: center;
+}
+
+
+.sub {
+    text-align: center;
+}
