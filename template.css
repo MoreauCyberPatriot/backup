@@ -1,17 +1,20 @@
 .background {
     background: #E0E0E0;
-    height: 100%;
+    padding-bottom: 50px;
+    min-height: 100%;
 }
 
 .header {
     padding: 1rem;
     background-color: #1EA43B;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-pack:justify;
-    -ms-flex-pack:justify;
-    justify-content: center;
+    
+}
+
+.top {
+    color: #E6D200;
+    font-weight: bold;
+    font-family: 'Bree serif', serif;
+    font-size: 55px;
 }
 
 .headOpt {
@@ -23,6 +26,12 @@
 
 .nav {
     height: 2rem;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content: center;
 }
 
 .nav li {
@@ -42,13 +51,18 @@
     padding: 0 !important;
 }
 
-.link a {
+.a:hover{
     text-decoration: none;
 }
 
 .link:hover {
     color: #FCD664 !important;
     background-color: transparent !important;
+    text-decoration: none;
+}
+
+.ref:hover {
+    text-decoration: none;
 }
 
 .logo {
@@ -60,11 +74,23 @@
     width: 75%;
     margin: 0 auto;
     border-radius: 0 0 25px 25px;
-    padding: 30px;
+    padding: 50px;
     padding-top: 100px;
 }
 
+.image {
+    text-align: center;
+}
+
+.meme {
+    width: 50%;
+}
+
 h1 {
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
 
@@ -75,4 +101,12 @@ h1 {
 
 .sub {
     text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
 }

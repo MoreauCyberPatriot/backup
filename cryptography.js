@@ -269,7 +269,6 @@
 // ------------------------------------------------ //
 
 function q1() {
-    
     var answer = document.getElementById("ans1").value.toLowerCase();
     var hash = $.md5(answer);
     if (hash != null && hash == "c51ce410c124a10e0db5e4b97fc2af39") {
@@ -281,7 +280,156 @@ function q1() {
     else {
         alert("Incorrect. Try again!");
     }
+}
 
+function q2() {
+    var answer = document.getElementById("ans2").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "4800a692ba052e088ad614756800abc4") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q3() {
+    var answer = document.getElementById("ans3").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "a1d0c6e83f027327d8461063f4ac58a6") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q4() {
+    var answer = document.getElementById("ans4").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "386e7139551237e55d921868862f968a") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q5() {
+    var answer = document.getElementById("ans5").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "4e732ced3463d06de0ca9a15b6153677") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q6() {
+    var answer = document.getElementById("ans6").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "79af0c177db2ee64b7301af6e1d53634") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q7() {
+    var answer = document.getElementById("ans7").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "2e85821b2ff3bf03c746f0e9ec9b189d") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q8() {
+    var answer = document.getElementById("ans8").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "1cc05605438263a875f31ecddce34b68") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q9() {
+    var answer = document.getElementById("ans9").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "ddfe7fc16d097dabb5f57cc0144ef9ba") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q10() {
+    var answer = document.getElementById("ans10").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "aa7357c07b157e459976798df2941670") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
+}
+
+function q11() {
+    var answer = document.getElementById("ans11").value.toLowerCase();
+    var hash = $.md5(answer);
+    if (hash != null && hash == "b246ff693d453c3b1a3049752da2bc75") {
+        alert("Correct! The answer was: " + answer);
+    }
+    else if (answer == "") {
+        alert("Please type in an answer.");
+    }
+    else {
+        alert("Incorrect. Try again!");
+    }
 }
 
 document.getElementById("Q1").addEventListener("click",q1,false);
+document.getElementById("Q2").addEventListener("click",q2,false);
+document.getElementById("Q3").addEventListener("click",q3,false);
+document.getElementById("Q4").addEventListener("click",q4,false);
+document.getElementById("Q5").addEventListener("click",q5,false);
+document.getElementById("Q6").addEventListener("click",q6,false);
+document.getElementById("Q7").addEventListener("click",q7,false);
+document.getElementById("Q8").addEventListener("click",q8,false);
+document.getElementById("Q9").addEventListener("click",q9,false);
+document.getElementById("Q10").addEventListener("click",q10,false);
+document.getElementById("Q11").addEventListener("click",q11,false);
